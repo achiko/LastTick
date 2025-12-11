@@ -1,0 +1,41 @@
+{
+  "name": "polymarket-arbitrage-bot",
+  "version": "1.0.0",
+  "description": "Polymarket endgame arbitrage trading bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "print": "ts-node src/print.ts",
+    "fetch": "ts-node src/fetcher.ts",
+    "fetch:once": "ts-node src/fetcher.ts --once",
+    "db:up": "docker-compose up -d",
+    "db:down": "docker-compose down",
+    "db:logs": "docker-compose logs -f postgres",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "polymarket",
+    "arbitrage",
+    "trading",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@polymarket/clob-client": "^4.22.8",
+    "@polymarket/order-utils": "^3.0.1",
+    "@types/node": "^24.10.1",
+    "@types/pg": "^8.15.6",
+    "@types/ws": "^8.18.1",
+    "dotenv": "^17.2.3",
+    "ethers": "^5.8.0",
+    "pg": "^8.16.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "winston": "^3.18.3",
+    "ws": "^8.18.3"
+  }
+}
