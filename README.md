@@ -1,4 +1,4 @@
-# PLastTick
+# LastTick
 
 Trading bot and analytics platform for Polymarket prediction markets. Implements the "endgame arbitrage" strategy - capturing micro-profits by buying near-certain outcomes (98-99%+ probability) before market resolution.
 
