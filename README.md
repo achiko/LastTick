@@ -176,6 +176,7 @@ Total Markets:    222,798
 Active Markets:   17,409
 Tokens:          426,045
 Price Records:   468,544
+
 ```
 
 ## Risk Considerations
